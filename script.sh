@@ -17,7 +17,7 @@ for i in "${FILES[@]}"; do
 done
 echo "${CMDS[@]}"
 
-S3_BUCKET="s3://nova-interactives-${ENVIRONMENT}"
+#S3_BUCKET="s3://nova-interactives-${ENVIRONMENT}"
 
-echo "Sync\`ing the list of changed files with S3 bucket $S3_BUCKET..."
-echo "${CMDS[@]}" | xargs aws s3 sync wgbh/nova/ "$S3_BUCKET" --delete --exclude "*" && echo "DONE"
+#echo "Sync\`ing the list of changed files with S3 bucket $S3_BUCKET..."
+#echo "${CMDS[@]}" | xargs aws s3 sync wgbh/nova/ "$S3_BUCKET" --delete --exclude "*" && echo "DONE"
