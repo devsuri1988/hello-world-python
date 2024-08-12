@@ -13,5 +13,5 @@ profiles:
   default:
     name: {{branch.replace('/', '-')}}
     endpoint: /preview/hello/{{branch}}/
-    max_memory: 0.25G
-    max_cpu: 0.25
+    max_memory: 0.5G
+    max_cpu: 0.5
